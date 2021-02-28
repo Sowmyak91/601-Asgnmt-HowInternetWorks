@@ -5,5 +5,5 @@
 1. HTTP and HTTPS protocols
 1. W3C and HTML and CSS
 
-[Link to website](https://sowmyak91.github.io/601-Asgnmt-HowInternetWorks/)
+[Link to website - How Internet Works](https://sowmyak91.github.io/601-Asgnmt-HowInternetWorks/)
 
