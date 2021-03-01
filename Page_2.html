@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>How Internet Works</title>
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-light .bg-light" style="background-color: #ffc107;">
+    <div class="container-fluid">
+        <h2 class="display-6">How Internet Works</h2><span>&nbsp;</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active lead" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active lead" aria-current="page" href="About_Page.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active lead" aria-current="page" href="#" id="navbarDropdown"
+                       role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Learn More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item lead" href="Page_1.html">Domain names and ICANN</a></li>
+                        <li><a class="dropdown-item lead" href="Page_2.html">IP Addresses, Packets and Routing</a></li>
+                        <li><a class="dropdown-item lead" href="Page_3.html">DNS</a></li>
+                        <li><a class="dropdown-item lead" href="Page_4.html">HTTP and HTTPS protocols</a></li>
+                        <li><a class="dropdown-item lead" href="Page_5.html">W3C and HTML and CSS</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<body>
+ <br>
+  <h3 class="display-6 text-center">IP Addresses, Packets and Routing.</h3>
+  <h3 class="lead text-center">Click the dropdown to learn more.</h3>
+  <br>
+
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        IP Addresses
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+
+             <ul>
+               <li class="lead">An Internet Protocol address (IP address) is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.</li>
+               <li class="lead">A protocol is a well known set of rules and standards, that if all parties agree to use it, will allow them to communicate without trouble.</li>
+               <li class="lead">All the different devices on the internet have unique addresses. An address on the internet is just a number, similar to a phone number or a sort of street address, that's unique to each computer or device at the edge of the network.</li>
+               <li class="lead">The addressing system for computers on the internet is similar and the most important protocols used in internet communication simply called the internet protocol or IP.</li>
+               <li class="lead"> It's just a bunch of numbers. These numbers are organized in a hierarchy.Each of these numbers is represented in bits. Traditional IP addresses are 32 bits long, with 8 bits for each part of the address.</li>
+               <li class="lead">IPv4, 32 bits long, designed in 1973 and was widely adopted in the early 80s, and provides for more than 4 billion unique addresses for devices connecting to the Internet.</li>
+                 <li class="lead">IPv6, a longer IP address format which uses 128 bits per address and provides over 340 undecillion unique addresses.</li>
+             </ul>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="img/ip.png" class="card-img-bottom img-fluid">
+            <div class="card-block">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Packets
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <ul>
+          <li class="lead">Information on the internet goes from one computer to another in what we call a packet of information and a packet travels from one place to another on the Internet a lot like how you might get from one place to another in a car.</li>
+          <li class="lead">If we have a very large image to send to a friend or upload to a website, that image might be made up of 10s of millions of bits of 1s and 0s, too many to send along in one packet. Since it's data on a computer, the computer sending the image can quickly
+              break it into hundreds or even thousands of smaller parts called packets.</li>
+          <li class="lead">Each packet has the internet address of where it came from and where it's going.</li>
+            <li class="lead">Special computers on the internet called routers act like traffic managers to keep the packets moving through the networks smoothly.</li>
+          <li class="lead">If one route is congested, individual packets may travel different routes through the internet
+              and they may arrive at the destination at slightly different times or even out of order.</li>
+            <li class="lead">As part of the internet protocol, every router keeps track of multiple paths for sending packets, and it chooses the cheapest
+                available path for each piece of data based on destination IP address for the packet.</li>
+            <li class="lead">Cheapest in this case doesn't mean cost, but time and non-technical factors such as politics and relationships between companies.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Routing
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+
+        <ul>
+          <li class="lead">Routing is the process of selecting a path for traffic in a network or between or across multiple networks.</li>
+          <li class="lead">Routing is the higher-level decision making that directs network packets from their source toward their destination through intermediate network nodes by specific packet forwarding mechanisms. </li>
+          <li class="lead">Routers act like traffic managers. Path selection involves applying a routing metric to multiple routes to select (or predict) the best route.</li>
+            <li class="lead">Most routing algorithms use only one network path at a time.</li>
+        </ul>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="img/routing.jpg" class="card-img-bottom img-fluid">
+            <div class="card-block">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </div>>
+</body>
+</html>
